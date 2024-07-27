@@ -474,6 +474,7 @@ ul a {
   flex-direction: column;
   justify-content: space-between;
   position: relative;
+  border: 4px solid #cdcdcd;
 }
 
 .card-text-choose li {
@@ -500,7 +501,7 @@ ul a {
 
 .card-text-choose .card:hover {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 4px solid #ddd;
+  border: 4px solid #bdbbbb;
 }
 
 .card-header {

@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const updateCount = () => {
       const target = +counter.getAttribute('data-target');
       const count = +counter.innerText.replace('+', '').replace(/,/g, '');
-      const increment = target / 100;
+      const increment = target / 1000;
 
       if (count < target) {
         counter.innerText = Math.ceil(count + increment).toLocaleString();
