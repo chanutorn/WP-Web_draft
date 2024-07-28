@@ -484,7 +484,8 @@
     padding: 0 10px 0 0;
   }
   .card-user-body {
-    font-size: 8px;
+    font-size: 7px;
+    margin-top: 8px;
   }
   .card-hr {
     margin: 5px 0 3px;
