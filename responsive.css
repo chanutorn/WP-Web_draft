@@ -238,7 +238,7 @@
     padding: 0 24px 0 0;
   }
   .card-user-body {
-    font-size: 9px;
+    font-size: 8px;
   }
   .card-hr {
     margin: 5px 0 3px;
@@ -251,17 +251,6 @@
     width: 8px;
     height: 8px;
     margin: 0 3px;
-  }
-  #box-1:nth-child(4),
-  #box-2:nth-child(1) {
-    display: none;
-  }
-  #box-2:nth-child(1) {
-    background: linear-gradient(
-      to top right,
-      #673ab7,
-      rgba(255, 255, 255, 0.8)
-    );
   }
 
   /* footer */
@@ -459,6 +448,14 @@
 
   /* experience */
 
+  .eo-experience {
+    display: none;
+  }
+
+  .eo-experience-400 {
+    display: block;
+  }
+
   .experience {
     height: 370px;
   }
@@ -466,13 +463,18 @@
     font-size: 18px;
     padding: 25px;
   }
-  .experience .item .item-experience {
-    gap: 10px;
-    padding: 5px;
-  }
   .box {
     width: 150px;
     height: 125px;
+  }
+  .experience .item .item-experience {
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 1173px;
+    padding: 5px;
+    color: #fff;
+    flex-direction: column;
   }
   .experience .item .item-experience .box img {
     width: 20px;
@@ -498,23 +500,75 @@
     height: 6px;
     margin: 0 2px;
   }
-  #box-1:nth-child(3),
-  #box-1:nth-child(4),
-  #box-2:nth-child(1),
-  #box-2:nth-child(2) {
-    display: none;
+
+  #box-1:nth-child(1) {
+    background: linear-gradient(
+      to top right,
+      #4caf50,
+      rgba(255, 255, 255, 0.8)
+    );
   }
-  #box-2:nth-child(3) {
+  #box-1:nth-child(2) {
     background: linear-gradient(
       to top right,
       #c60e00,
       rgba(255, 255, 255, 0.8)
     );
   }
-  #box-2:nth-child(4) {
+  #box-2:nth-child(1) {
+    background: linear-gradient(
+      to top right,
+      #3f51b5,
+      rgba(255, 255, 255, 0.8)
+    );
+  }
+  #box-2:nth-child(2) {
     background: linear-gradient(
       to top right,
       #673ab7,
+      rgba(255, 255, 255, 0.8)
+    );
+  }
+  #box-3:nth-child(1) {
+    background: linear-gradient(
+      to top right,
+      #c60e00,
+      rgba(255, 255, 255, 0.8)
+    );
+  }
+  #box-3:nth-child(2) {
+    background: linear-gradient(
+      to top right,
+      #4caf50,
+      rgba(255, 255, 255, 0.8)
+    );
+  }
+  #box-4:nth-child(1) {
+    background: linear-gradient(
+      to top right,
+      #673ab7,
+      rgba(255, 255, 255, 0.8)
+    );
+  }
+  #box-4:nth-child(2) {
+    background: linear-gradient(
+      to top right,
+      #3f51b5,
+      rgba(255, 255, 255, 0.8)
+    );
+  }
+  #box-5:nth-child(1) {
+    background: linear-gradient(
+      to top right,
+      #4caf50,
+      rgba(255, 255, 255, 0.8)
+    );
+  }
+
+  #box-5:nth-child(2) {
+    background: linear-gradient(
+      to top right,
+      #c60e00,
       rgba(255, 255, 255, 0.8)
     );
   }

@@ -50,6 +50,19 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function () {
+  $(".eo-experience-400").slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    centerMode: true,
+    variableWidth: true,
+  });
+});
+
 // chat
 const chatIcon = document.querySelector('.chat-f');
   const chatWindow = document.querySelector('.chat-window');

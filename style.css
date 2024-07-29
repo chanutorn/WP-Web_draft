@@ -554,6 +554,10 @@ ul a {
   background: #000;
 }
 
+.experience-770 {
+  display: none;
+}
+
 .experience .section-heading {
   padding-top: 30px;
 }
@@ -616,38 +620,6 @@ ul a {
 .card-rating-text {
   font-size: 8px;
   color: #fff;
-}
-
-#box-1:nth-child(1) {
-  background: linear-gradient(to top right, #4caf50, rgba(255, 255, 255, 0.8));
-}
-
-#box-1:nth-child(2) {
-  background: linear-gradient(to top right, #3f51b5, rgba(255, 255, 255, 0.8));
-}
-
-#box-1:nth-child(3) {
-  background: linear-gradient(to top right, #c60e00, rgba(255, 255, 255, 0.8));
-}
-
-#box-1:nth-child(4) {
-  background: linear-gradient(to top right, #673ab7, rgba(255, 255, 255, 0.8));
-}
-
-#box-2:nth-child(1) {
-  background: linear-gradient(to top right, #c60e00, rgba(255, 255, 255, 0.8));
-}
-
-#box-2:nth-child(2) {
-  background: linear-gradient(to top right, #673ab7, rgba(255, 255, 255, 0.8));
-}
-
-#box-2:nth-child(3) {
-  background: linear-gradient(to top right, #4caf50, rgba(255, 255, 255, 0.8));
-}
-
-#box-2:nth-child(4) {
-  background: linear-gradient(to top right, #3f51b5, rgba(255, 255, 255, 0.8));
 }
 
 .experience .section-heading {
@@ -732,6 +704,42 @@ ul a {
 .eo-experience {
   position: relative;
   z-index: 5;
+}
+
+.eo-experience-400 {
+  display: none;
+}
+
+#box-1:nth-child(1) {
+  background: linear-gradient(to top right, #4caf50, rgba(255, 255, 255, 0.8));
+}
+
+#box-1:nth-child(2) {
+  background: linear-gradient(to top right, #3f51b5, rgba(255, 255, 255, 0.8));
+}
+
+#box-1:nth-child(3) {
+  background: linear-gradient(to top right, #c60e00, rgba(255, 255, 255, 0.8));
+}
+
+#box-1:nth-child(4) {
+  background: linear-gradient(to top right, #673ab7, rgba(255, 255, 255, 0.8));
+}
+
+#box-2:nth-child(1) {
+  background: linear-gradient(to top right, #c60e00, rgba(255, 255, 255, 0.8));
+}
+
+#box-2:nth-child(2) {
+  background: linear-gradient(to top right, #673ab7, rgba(255, 255, 255, 0.8));
+}
+
+#box-2:nth-child(3) {
+  background: linear-gradient(to top right, #4caf50, rgba(255, 255, 255, 0.8));
+}
+
+#box-2:nth-child(4) {
+  background: linear-gradient(to top right, #3f51b5, rgba(255, 255, 255, 0.8));
 }
 
 /* footer */
