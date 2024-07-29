@@ -38,25 +38,36 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // help
 document.addEventListener('DOMContentLoaded', () => {
-    const helpItems = document.querySelectorAll('.help-item');
+  const helpItems = document.querySelectorAll('.help-item');
 
-    helpItems.forEach(item => {
-        item.addEventListener('click', (e) => {
-            const targetId = e.target.getAttribute('data-target');
-            const details = document.getElementById(targetId);
+  helpItems.forEach(item => {
+      item.addEventListener('click', (e) => {
+          const targetId = e.currentTarget.getAttribute('data-target');
+          const details = document.getElementById(targetId);
+          const icon = e.currentTarget.querySelector('i');
 
-            if (details.classList.contains('show')) {
-                details.classList.remove('show');
-            } else {
-                document.querySelectorAll('.help-details.show').forEach(detail => {
-                    detail.classList.remove('show');
-                });
+          if (details.classList.contains('show')) {
+              details.classList.remove('show');
+              icon.classList.remove('fa-circle-minus');
+              icon.classList.add('fa-circle-plus');
+          } else {
+              document.querySelectorAll('.help-details.show').forEach(detail => {
+                  detail.classList.remove('show');
+              });
 
-                details.classList.add('show');
-                setTimeout(() => {
-                    details.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }, 10000);
-            }
-        });
-    });
+              document.querySelectorAll('.help-item i').forEach(ic => {
+                  ic.classList.remove('fa-circle-minus');
+                  ic.classList.add('fa-circle-plus');
+              });
+
+              details.classList.add('show');
+              icon.classList.remove('fa-circle-plus');
+              icon.classList.add('fa-circle-minus');
+              
+              setTimeout(() => {
+                  details.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }, 10000);
+          }
+      });
+  });
 });
