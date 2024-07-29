@@ -1,0 +1,246 @@
+/* 770px */
+
+@media screen and (max-width: 770px) {
+  .navbar-toggle {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    top: 23px;
+    right: 20rem;
+    font-size: 24px;
+  }
+  ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+  }
+  ul.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #0f0c1e !important;
+    padding: 10px 0;
+    z-index: 1000;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    transform: translate(30%, 10%);
+  }
+  ul li {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  ul li {
+    margin: 0 3rem;
+    padding: 20px;
+  }
+  nav.scrolled .logo-text-w,
+  nav.scrolled .dropdown-content,
+  nav.scrolled .dropdown,
+  nav.scrolled ul li a {
+    color: #fff;
+  }
+  nav ul li:nth-child(3) a {
+    color: #ffc107;
+  }
+  .text-main {
+    margin-top: 8rem;
+    margin-bottom: 0;
+    font-size: 3rem;
+  }
+  .text-all-main {
+    font-size: 1.25rem;
+    padding: 30px;
+  }
+  .a-main .dow-main,
+  .a-main .sub-main {
+    padding: 0.75rem 1.5rem;
+    margin: 0.25rem;
+    font-size: 15px;
+  }
+
+  /* chat */
+
+  .chat-f {
+    bottom: 7rem;
+    right: 6rem;
+    width: 50px;
+    height: 50px;
+  }
+
+  /* footer */
+
+  .footer {
+    height: 250px;
+    padding: 20px;
+  }
+  .footer-logo {
+    margin-bottom: 12px;
+  }
+  .footer-text {
+    font-size: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .footer-a-help {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .footer-a {
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 8px;
+  }
+  .footer-icon {
+    gap: 14px;
+    margin: 10px 0;
+  }
+  .footer-icon img {
+    width: 22px;
+    height: 22px;
+  }
+  .footer-hr {
+    height: 0.75px;
+    margin: 14px 0;
+  }
+  .copyright {
+    font-size: 9px;
+  }
+  .footer-help {
+    width: 100px;
+  }
+
+  nav.scrolled .logo-text-w,
+  nav.scrolled .dropdown-content,
+  nav.scrolled .dropdown {
+    color: #fff;
+  }
+  .blog-main-text {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .text-blog span {
+    font-size: 1.5rem;
+    margin: 20px;
+  }
+  .blog-main {
+    margin: 15px;
+    max-width: 720px;
+  }
+  .blog-rating {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 400px */
+
+@media screen and (max-width: 400px) {
+  nav {
+    font-size: 14px;
+    padding: 20px 10px;
+  }
+  .navbar-toggle {
+    right: 12rem;
+  }
+  ul.active {
+    max-width: 300px;
+    transform: translate(15%, 10%);
+  }
+  .get a {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  /* chat */
+
+  .chat-f {
+    bottom: 7rem;
+    right: 3rem;
+    width: 40px;
+    height: 40px;
+  }
+
+  /* footer */
+
+  .footer {
+    height: 230px;
+    padding: 12px;
+  }
+  .footer-logo {
+    margin-bottom: 12px;
+  }
+  .footer-text {
+    font-size: 9.5px;
+    width: 260px;
+    margin-bottom: 10px;
+  }
+  .footer-a-help {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .footer-a {
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 8px;
+  }
+  .footer-icon {
+    gap: 10px;
+    margin: 10px 0;
+  }
+  .footer-icon img {
+    width: 15px;
+    height: 15px;
+  }
+  .footer-hr {
+    height: 0.5px;
+    margin: 12px 0;
+  }
+  .copyright {
+    font-size: 8px;
+  }
+  .footer-help {
+    width: 100px;
+  }
+
+  .blog-main-text {
+    padding: 3px;
+    font-size: 9px;
+  }
+  .blog-main {
+    margin: 10px;
+    max-width: 340px;
+  }
+  .main-text {
+    font-size: 12px;
+  }
+  .main-text-mc {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .blog-rating {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .blog-rating img {
+    width: 140px;
+    height: 130px;
+  }
+  .blog-rating .blog-r {
+    align-items: center;
+  }
+  .blog-text-mc {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .blog-text {
+    margin-top: 10px;
+    max-width: 150px;
+    font-size: 8px;
+  }
+}

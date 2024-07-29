@@ -1,0 +1,274 @@
+/* 770px */
+@media screen and (max-width: 770px) {
+  .navbar-toggle {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    top: 23px;
+    right: 20rem;
+    font-size: 24px;
+  }
+  ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+  }
+  ul.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #0f0c1e !important;
+    padding: 10px 0;
+    z-index: 1000;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    transform: translate(30%, 10%);
+  }
+  ul li {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  ul li {
+    margin: 0 3rem;
+    padding: 20px;
+  }
+  nav.scrolled .logo-text-w,
+  nav.scrolled .dropdown-content,
+  nav.scrolled .dropdown,
+  nav.scrolled ul li a {
+    color: #fff;
+  }
+  nav ul li:nth-child(1) a {
+    color: #ffc107;
+  }
+
+  /* chat */
+
+  .chat-f {
+    bottom: 350px;
+    right: 60px;
+    width: 50px;
+    height: 50px;
+  }
+
+  /* choose */
+
+  .choose {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .text-choose span {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .card-text-choose ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    padding: 0;
+    justify-items: center;
+  }
+
+  .card-text-choose li {
+    padding: 10px;
+    width: 75%;
+  }
+
+  .card-text-choose .card {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+
+  .card-text-choose {
+    font-size: 7px;
+    padding: 5px;
+  }
+
+  .card-text-choose img {
+    width: 8px;
+    height: 8px;
+  }
+
+  .card-header {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  .card-money {
+    font-size: 16px;
+  }
+
+  .card-text-bold {
+    font-size: 8px;
+  }
+
+  .card-start {
+    padding-top: 10px;
+  }
+
+  .card-start a {
+    padding: 4px 7px;
+    font-size: 9px;
+  }
+
+  .card-text {
+    font-size: 8px;
+  }
+  .card-text-choose li:nth-child(4) .card::before {
+    font-size: 6px;
+  }
+
+  /* footer */
+
+  .footer {
+    height: 250px;
+    padding: 20px;
+  }
+  .footer-logo {
+    margin-bottom: 12px;
+  }
+  .footer-text {
+    font-size: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .footer-a-help {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .footer-a {
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 8px;
+  }
+  .footer-icon {
+    gap: 14px;
+    margin: 10px 0;
+  }
+  .footer-icon img {
+    width: 22px;
+    height: 22px;
+  }
+  .footer-hr {
+    height: 0.75px;
+    margin: 14px 0;
+  }
+  .copyright {
+    font-size: 9px;
+  }
+  .footer-help {
+    width: 100px;
+  }
+}
+
+/* 400px */
+
+@media screen and (max-width: 400px) {
+  nav {
+    font-size: 14px;
+    padding: 20px 10px;
+  }
+  .navbar-toggle {
+    right: 12rem;
+  }
+  ul.active {
+    max-width: 300px;
+    transform: translate(15%, 10%);
+  }
+  .get a {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  /* chat */
+
+  .chat-f {
+    bottom: 200px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+  }
+
+  /* choose */
+
+  .text-choose span {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .card-text-choose li {
+    width: 80%;
+  }
+
+  .card-header {
+    font-size: 7px;
+  }
+
+  .card-money {
+    font-size: 12px;
+  }
+
+  .card-text-bold {
+    font-size: 7px;
+  }
+
+  .card-start a {
+    font-size: 5px;
+  }
+
+  .card-text {
+    font-size: 6px;
+  }
+
+  /* footer */
+
+  .footer {
+    height: 230px;
+    padding: 12px;
+  }
+  .footer-logo {
+    margin-bottom: 12px;
+  }
+  .footer-text {
+    font-size: 9.5px;
+    width: 260px;
+    margin-bottom: 10px;
+  }
+  .footer-a-help {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .footer-a {
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 8px;
+  }
+  .footer-icon {
+    gap: 10px;
+    margin: 10px 0;
+  }
+  .footer-icon img {
+    width: 15px;
+    height: 15px;
+  }
+  .footer-hr {
+    height: 0.5px;
+    margin: 12px 0;
+  }
+  .copyright {
+    font-size: 8px;
+  }
+  .footer-help {
+    width: 100px;
+  }
+}

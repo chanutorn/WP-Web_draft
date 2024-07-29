@@ -1,9 +1,6 @@
 /* 770px */
 
 @media screen and (max-width: 770px) {
-  header {
-    height: 420px;
-  }
   .navbar-toggle {
     position: absolute;
     display: block;
@@ -47,6 +44,15 @@
   }
   nav.scrolled ul li a {
     color: #fff;
+  }
+  nav.pdbh.scrolled .logo-text-w,
+  nav.pdbh.scrolled .dropdown-content,
+  nav.pdbh.scrolled .dropdown,
+  nav.scrolled ul li a {
+    color: #fff;
+  }
+  nav.pdbh ul li:nth-child(1) a {
+    color: #ffc107;
   }
   .text-main {
     margin-top: 8rem;
@@ -259,16 +265,13 @@
   }
 
   /* footer */
-  
+
   .footer {
-    height: 440px;
+    height: 250px;
     padding: 20px;
   }
   .footer-logo {
     margin-bottom: 12px;
-  }
-  .footer-main {
-    gap: 19rem;
   }
   .footer-text {
     font-size: 10px;
@@ -307,9 +310,6 @@
 /* 400px */
 
 @media screen and (max-width: 400px) {
-  header {
-    height: 330px;
-  }
   nav {
     font-size: 14px;
     padding: 20px 10px;
@@ -523,14 +523,11 @@
   /* footer */
 
   .footer {
-    height: 440px;
+    height: 230px;
     padding: 12px;
   }
   .footer-logo {
     margin-bottom: 12px;
-  }
-  .footer-main {
-    gap: 0.5rem;
   }
   .footer-text {
     font-size: 9.5px;
