@@ -1,6 +1,9 @@
 /* 770px */
 
 @media screen and (max-width: 770px) {
+  header {
+    height: 420px;
+  }
   .navbar-toggle {
     position: absolute;
     display: block;
@@ -298,6 +301,9 @@
 /* 400px */
 
 @media screen and (max-width: 400px) {
+  header {
+    height: 320px;
+  }
   nav {
     font-size: 14px;
     padding: 20px 10px;
