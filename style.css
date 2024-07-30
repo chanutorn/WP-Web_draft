@@ -29,12 +29,15 @@ body {
 /* Header Start */
 
 header {
-  height: 560px;
   background-image: url("images/Web_draft-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   overflow: hidden;
+}
+
+#nav-770 {
+  display: none;
 }
 
 nav {
@@ -746,11 +749,7 @@ ul a {
 
 .footer {
   padding: 3.5rem;
-  background-image: url("images/Web_draft-4.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
+  background: #241f20;
   color: #fff;
 }
 

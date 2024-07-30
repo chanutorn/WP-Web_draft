@@ -29,11 +29,27 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   // navBarToggle
-  let mainNav = document.getElementById("js-menu");
-  let navBarToggle = document.getElementById("js-navbar-toggle");
-  
-  navBarToggle.addEventListener("click", function() {
-    mainNav.classList.toggle("active");
+  let mainNavMain = document.getElementById("js-menu");
+  let navBarToggleMain = document.getElementById("js-navbar-toggle");
+
+  navBarToggleMain.addEventListener("click", function() {
+      mainNavMain.classList.toggle("active");
+  });
+
+  let mainNav770 = document.getElementById("js-menu-770");
+  let navBarToggle770 = document.getElementById("js-navbar-toggle-770");
+
+  navBarToggle770.addEventListener("click", function() {
+      mainNav770.classList.toggle("active");
+  });
+
+  window.addEventListener('scroll', function() {
+    const nav = document.getElementById('nav-770');
+    if (window.scrollY > 100) {
+      nav.classList.add('scrolled');
+    } else {
+      nav.classList.remove('scrolled');
+    }
   });
 
 // help

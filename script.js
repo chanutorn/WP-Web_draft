@@ -29,12 +29,62 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // navBarToggle
-let mainNav = document.getElementById("js-menu");
-let navBarToggle = document.getElementById("js-navbar-toggle");
+document.addEventListener('DOMContentLoaded', function() {
+  // Function to toggle the menu
+  function setupMenuToggle(menuId, toggleId) {
+    const menu = document.getElementById(menuId);
+    const toggle = document.getElementById(toggleId);
+    
+    if (menu && toggle) {
+      toggle.addEventListener('click', function() {
+        menu.classList.toggle('active');
+      });
+    }
+  }
 
-navBarToggle.addEventListener("click", function() {
-  mainNav.classList.toggle("active");
+  // Setup menu toggles
+  setupMenuToggle('js-menu', 'js-navbar-toggle');
+  setupMenuToggle('js-menu-770', 'js-navbar-toggle-770');
+
+  // Function to handle scroll event
+  function handleScroll() {
+    const nav = document.getElementById('nav-770');
+    if (nav) {
+      if (window.scrollY > 100) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    }
+  }
+
+  // Initial scroll event
+  handleScroll();
+
+  // Add scroll event listener
+  window.addEventListener('scroll', handleScroll);
+
+  // Function to handle resizing for different menu types
+  function handleResize() {
+    const navMain = document.querySelector('nav.nav-main');
+    const nav770 = document.getElementById('nav-770');
+
+    if (window.innerWidth <= 770) {
+      if (navMain) navMain.style.display = 'none';
+      if (nav770) nav770.style.display = 'flex';
+    } else {
+      if (navMain) navMain.style.display = 'flex';
+      if (nav770) nav770.style.display = 'none';
+    }
+  }
+
+  // Initial resize event
+  handleResize();
+
+  // Add resize event listener
+  window.addEventListener('resize', handleResize);
 });
+
 
 // experience
 $(document).ready(function () {
