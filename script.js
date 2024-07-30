@@ -85,7 +85,6 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('resize', handleResize);
 });
 
-
 // experience
 $(document).ready(function () {
   $(".eo-experience").slick({

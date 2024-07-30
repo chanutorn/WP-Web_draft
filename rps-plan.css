@@ -3,7 +3,6 @@
   nav {
     display: none;
   }
-
   #nav-770 {
     display: flex;
     justify-content: space-between;
@@ -16,22 +15,18 @@
     z-index: 1000;
     color: #241f20;
   }
-
   #nav-770 .logo {
     flex-grow: 1;
     display: flex;
     justify-content: center;
   }
-
   #nav-770 .dropdown {
     order: -1;
     color: #fff;
   }
-
   #nav-770 .get {
     margin-left: auto;
   }
-
   #nav-770 .navbar-toggle {
     display: block;
     position: absolute;
@@ -42,7 +37,6 @@
     z-index: 1100;
     cursor: pointer;
   }
-
   #nav-770 ul {
     list-style: none;
     display: none;
@@ -51,7 +45,6 @@
     align-content: center;
     margin: 0;
   }
-
   #nav-770 ul.active {
     display: flex;
     flex-direction: column;
@@ -66,13 +59,11 @@
     border-radius: 10px;
     transform: translate(0, 0);
   }
-
   #nav-770 ul li {
     margin: 0 1rem;
     text-align: center;
     padding: 20px;
   }
-
   #nav-770 .navbar-toggle {
     display: block;
     position: absolute;
@@ -98,12 +89,10 @@
     height: auto;
     padding: 1rem;
   }
-
   .text-choose span {
     font-size: 28px;
     margin-bottom: 10px;
   }
-
   .card-text-choose ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -111,51 +100,41 @@
     padding: 0;
     justify-items: center;
   }
-
   .card-text-choose li {
     padding: 10px;
     width: 75%;
   }
-
   .card-text-choose .card {
     width: 100%;
     height: auto;
     padding: 10px;
     font-size: 0.8rem;
   }
-
   .card-text-choose {
     font-size: 7px;
     padding: 5px;
   }
-
   .card-text-choose img {
     width: 8px;
     height: 8px;
   }
-
   .card-header {
     font-size: 10px;
     margin-bottom: 5px;
   }
-
   .card-money {
     font-size: 16px;
   }
-
   .card-text-bold {
     font-size: 8px;
   }
-
   .card-start {
     padding-top: 10px;
   }
-
   .card-start a {
     padding: 4px 7px;
     font-size: 9px;
   }
-
   .card-text {
     font-size: 8px;
   }
@@ -212,14 +191,12 @@
     font-size: 14px;
     padding: 20px 40px;
   }
-
   #nav-770 ul.active {
     max-width: 300px;
     transform: translate(15%, 10%);
     left: 0%;
     top: 30px;
   }
-
   .get a {
     padding: 0.5rem 1rem;
     font-weight: bold;
@@ -242,27 +219,21 @@
     font-size: 16px;
     margin-bottom: 10px;
   }
-
   .card-text-choose li {
     width: 80%;
   }
-
   .card-header {
     font-size: 7px;
   }
-
   .card-money {
     font-size: 12px;
   }
-
   .card-text-bold {
     font-size: 7px;
   }
-
   .card-start a {
     font-size: 5px;
   }
-
   .card-text {
     font-size: 6px;
   }
