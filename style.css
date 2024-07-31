@@ -270,7 +270,7 @@ ul a {
 .steps {
   width: 100%;
   text-align: center;
-  padding: 2rem;
+  padding: 5rem;
   background-image: url("images/Web_draft-2.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -280,7 +280,7 @@ ul a {
 }
 .text-steps {
   margin-bottom: 1.5rem;
-  font-size: 3rem;
+  font-size: 42px;
 }
 .text-stories-pro {
   color: #ffc107;
@@ -298,26 +298,26 @@ ul a {
 }
 .step-card {
   background-color: rgba(255, 255, 255, 0.75);
-  border: 1px solid #ccc;
+  border: 1px solid #bbc4d5;
   border-radius: 20px;
   margin: 0 10px;
-  padding: 20px;
-  width: 255px;
-  height: 270px;
+  padding: 30px;
+  width: 270px;
+  height: 290px;
   text-align: center;
   font-size: 18px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 80px;
   color: #000;
 }
 .step-number img {
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 135px;
 }
 .step-text {
-  font-size: 25px;
+  font-size: 24px;
 }
 
 /* watchlist */
@@ -348,16 +348,15 @@ ul a {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: space-around;
-  gap: 1rem;
+  justify-content: space-evenly;
   margin-top: 400px;
-  font-weight: bold;
 }
 .watchlist-items li {
-  font-size: 1rem;
+  font-size: 18px;
   display: flex;
+  font-weight: 400;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: center;
 }
 .watchlist-items li img {
   width: 30px;
@@ -368,7 +367,6 @@ ul a {
 
 .choose {
   width: 100%;
-  height: 620px;
   text-align: center;
   padding: 2rem;
   background: #fff;
@@ -387,15 +385,16 @@ ul a {
   margin-bottom: 20px;
 }
 .card-text-choose {
-  font-size: 10px;
+  font-size: 14px;
   display: flex;
   padding: 10px;
   text-align: left;
   align-items: flex-start;
+  color: #555;
 }
 .card-text-choose img {
-  width: 10px;
-  height: 10px;
+  width: 16px;
+  height: 16px;
   margin-right: 6px;
 }
 .card-text-choose ul {
@@ -406,11 +405,11 @@ ul a {
   gap: 20px;
   flex-wrap: wrap;
 }
-.card-text-choose .card {
+.card-text-choose li .card {
   background-color: #fff;
   border-radius: 20px;
-  padding: 30px;
-  width: 260px;
+  padding: 10px;
+  width: 280px;
   height: 460px;
   text-align: center;
   font-size: 1.2rem;
@@ -420,6 +419,9 @@ ul a {
   flex-direction: column;
   justify-content: space-between;
   position: relative;
+  border: 4px solid #fff;
+}
+.card-text-choose li:nth-child(4) .card {
   border: 4px solid #cdcdcd;
 }
 .card-text-choose li {
@@ -442,40 +444,42 @@ ul a {
   align-items: center;
   text-align: center;
 }
-.card-text-choose .card:hover {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 4px solid #bdbbbb;
-}
 .card-header {
   font-size: 1.25rem;
   font-weight: bold;
+  margin-top: 10px;
   margin-bottom: 10px;
   color: #ffc107;
 }
 .card-text {
   margin-bottom: 15px;
   font-size: 10px;
+  color: #555;
 }
 .card-money {
   font-weight: bold;
   font-size: 3rem;
+  color: #000;
 }
 .card-text-bold {
   font-weight: bold;
   font-size: 12px;
+  color: #000;
 }
 .card-start {
   margin-top: auto;
-  padding-top: 20px;
+  margin-bottom: 20px;
 }
 .card-start a {
   background-color: #ffc107;
-  color: #fff;
-  padding: 0.5rem 1.5rem;
+  color: #000;
+  padding: 10px 18px;
   border-radius: 20px;
   text-decoration: none;
   font-weight: bold;
+  padding-top: 10px;
   transition: background-color 0.3s;
+  font-size: 18px;
 }
 .card-start a:hover {
   background-color: #eab30f;
@@ -493,7 +497,11 @@ ul a {
   display: none;
 }
 .experience .section-heading {
-  padding-top: 30px;
+  font-size: 44px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .text-experience {
   margin-bottom: 1.5rem;
@@ -535,7 +543,7 @@ ul a {
   text-align: left;
 }
 .card-rating {
-  font-size: 16px;
+  font-size: 14px;
   text-align: left;
   color: #ffab10;
   display: flex;
@@ -543,7 +551,7 @@ ul a {
   align-items: center;
 }
 .card-rating-text {
-  font-size: 8px;
+  font-size: 13px;
   color: #fff;
 }
 .experience .section-heading {
@@ -555,6 +563,9 @@ ul a {
   width: 265px;
   height: 240px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .experience .item {
   position: relative;
@@ -621,28 +632,28 @@ ul a {
   display: none;
 }
 #box-1:nth-child(1) {
-  background: linear-gradient(to top right, #4caf50, rgba(255, 255, 255, 0.8));
+  background: linear-gradient(to top right, #2ecf9f, rgba(255, 255, 255, 0.8));
 }
 #box-1:nth-child(2) {
-  background: linear-gradient(to top right, #3f51b5, rgba(255, 255, 255, 0.8));
+  background: linear-gradient(to top right, #516ffd, rgba(255, 255, 255, 0.8));
 }
 #box-1:nth-child(3) {
-  background: linear-gradient(to top right, #c60e00, rgba(255, 255, 255, 0.8));
+  background: linear-gradient(to top right, #fc304b, rgba(255, 255, 255, 0.8));
 }
 #box-1:nth-child(4) {
-  background: linear-gradient(to top right, #673ab7, rgba(255, 255, 255, 0.8));
+  background: linear-gradient(to top right, #7f5dfa, rgba(255, 255, 255, 0.8));
 }
 #box-2:nth-child(1) {
-  background: linear-gradient(to top right, #c60e00, rgba(255, 255, 255, 0.8));
+  background: linear-gradient(to top right, #fc304b, rgba(255, 255, 255, 0.8));
 }
 #box-2:nth-child(2) {
-  background: linear-gradient(to top right, #673ab7, rgba(255, 255, 255, 0.8));
+  background: linear-gradient(to top right, #7f5dfa, rgba(255, 255, 255, 0.8));
 }
 #box-2:nth-child(3) {
-  background: linear-gradient(to top right, #4caf50, rgba(255, 255, 255, 0.8));
+  background: linear-gradient(to top right, #2ecf9f, rgba(255, 255, 255, 0.8));
 }
 #box-2:nth-child(4) {
-  background: linear-gradient(to top right, #3f51b5, rgba(255, 255, 255, 0.8));
+  background: linear-gradient(to top right, #516ffd, rgba(255, 255, 255, 0.8));
 }
 
 /* footer */

@@ -194,20 +194,23 @@ ul a {
   justify-content: center;
   flex-wrap: wrap;
 }
-.card-text-choose .card {
+.card-text-choose li .card {
   background-color: #fff;
   border-radius: 20px;
-  padding: 30px;
-  width: 260px;
+  padding: 10px;
+  width: 280px;
   height: 460px;
   text-align: center;
   font-size: 1.2rem;
   transition: transform 0.3s, border 0.3s;
-  color: #333;
+  color: #000;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
+  border: 4px solid #fff;
+}
+.card-text-choose li:nth-child(4) .card {
   border: 4px solid #cdcdcd;
 }
 .card-text-choose li {
@@ -230,40 +233,42 @@ ul a {
   align-items: center;
   text-align: center;
 }
-.card-text-choose .card:hover {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 4px solid #bdbbbb;
-}
 .card-header {
   font-size: 1.25rem;
   font-weight: bold;
+  margin-top: 10px;
   margin-bottom: 10px;
   color: #ffc107;
 }
 .card-text {
   margin-bottom: 15px;
   font-size: 10px;
+  color: #555;
 }
 .card-money {
   font-weight: bold;
   font-size: 3rem;
+  color: #000;
 }
 .card-text-bold {
   font-weight: bold;
   font-size: 12px;
+  color: #000;
 }
 .card-start {
   margin-top: auto;
-  padding-top: 20px;
+  margin-bottom: 20px;
 }
 .card-start a {
   background-color: #ffc107;
-  color: #fff;
-  padding: 0.5rem 1.5rem;
+  color: #000;
+  padding: 10px 18px;
   border-radius: 20px;
   text-decoration: none;
   font-weight: bold;
+  padding-top: 10px;
   transition: background-color 0.3s;
+  font-size: 18px;
 }
 .card-start a:hover {
   background-color: #eab30f;

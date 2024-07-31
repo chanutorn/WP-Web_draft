@@ -95,14 +95,15 @@
   }
   .card-text-choose ul {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 0;
     padding: 0;
     justify-items: center;
   }
-  .card-text-choose li {
-    padding: 10px;
-    width: 75%;
+  .card-text-choose li .card {
+    padding: 4px;
+    width: 140px;
+    height: 240px;
   }
   .card-text-choose .card {
     width: 100%;
@@ -111,7 +112,7 @@
     font-size: 0.8rem;
   }
   .card-text-choose {
-    font-size: 7px;
+    font-size: 6px;
     padding: 5px;
   }
   .card-text-choose img {
@@ -123,7 +124,7 @@
     margin-bottom: 5px;
   }
   .card-money {
-    font-size: 16px;
+    font-size: 14px;
   }
   .card-text-bold {
     font-size: 8px;
@@ -136,7 +137,7 @@
     font-size: 9px;
   }
   .card-text {
-    font-size: 8px;
+    font-size: 6px;
   }
   .card-text-choose li:nth-child(4) .card::before {
     font-size: 6px;
@@ -236,6 +237,9 @@
   }
   .card-text {
     font-size: 6px;
+  }
+  .card-text-choose ul {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   /* footer */

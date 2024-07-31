@@ -149,7 +149,7 @@
     font-size: 16px;
   }
   .text-blog span {
-    font-size: 1.5rem;
+    font-size: 34px;
     margin: 20px;
   }
   .blog-main {
@@ -157,7 +157,21 @@
     max-width: 720px;
   }
   .blog-rating {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  .blog-rating img {
+    width: 197px;
+    height: 184px;
+  }
+  .blog-text {
+    font-size: 11px;
+  }
+  .blog-text-mc {
+    font-size: 15px;
+  }
+  .main-text {
+    font-size: 14px;
   }
 }
 

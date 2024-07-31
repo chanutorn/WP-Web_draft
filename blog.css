@@ -169,7 +169,7 @@ ul a {
   font-weight: bold;
 }
 .text-blog span {
-  font-size: 1.8rem;
+  font-size: 44px;
   display: block;
   margin: 20px;
 }
@@ -213,6 +213,7 @@ ul a {
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
   margin: 20px;
+  justify-items: center;
 }
 .blog-rating .blog-r {
   display: flex;
@@ -221,8 +222,8 @@ ul a {
   text-align: left;
 }
 .blog-rating img {
-  width: 300px;
-  height: 275px;
+  width: 350px;
+  height: 340px;
   object-fit: cover;
 }
 .blog-text {

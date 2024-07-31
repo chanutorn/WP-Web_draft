@@ -27,12 +27,7 @@ body {
 
 header {
   position: relative;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, black 100%),
-    url("images/Web_draft-1.png");
-  background-repeat: no-repeat;
-  background-size: contain, cover;
-  background-position: center top, center;
-  background-attachment: fixed;
+  background: #fff;
   padding: 10px;
 }
 #nav-770 {
@@ -47,20 +42,10 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: transparent;
+  background-color: #241f20;
   z-index: 1000;
   transition: background-color 0.5s ease-out, color 0.5s ease-out;
   color: #fff;
-}
-nav.scrolled {
-  background-color: #cdcdcdc2;
-  color: #000;
-}
-nav.scrolled ul li a,
-nav.scrolled .logo-text-w,
-nav.scrolled .dropdown-content,
-nav.scrolled .dropdown {
-  color: #000;
 }
 nav ul li:nth-child(4) a {
   color: #ffc107;
@@ -174,7 +159,7 @@ ul a {
   text-align: left;
   margin-top: 100px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #000;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -184,7 +169,6 @@ ul a {
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 20px;
-  text-align: center;
 }
 .help-details {
   display: none;
@@ -208,9 +192,13 @@ ul a {
   cursor: pointer;
   margin-bottom: 10px;
   font-size: 22px;
-  color: #ffc107;
+  color: #000;
 }
-.help-details-b,
+.help-details-b {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
 .help-details-t {
   margin-bottom: 15px;
   font-size: 18px;

@@ -194,10 +194,15 @@
   }
   .card-text-choose ul {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 0;
     padding: 0;
     justify-items: center;
+  }
+  .card-text-choose li .card {
+    padding: 4px;
+    width: 140px;
+    height: 240px;
   }
   .card-text-choose li {
     padding: 10px;
@@ -210,7 +215,7 @@
     font-size: 0.8rem;
   }
   .card-text-choose {
-    font-size: 7px;
+    font-size: 6px;
     padding: 5px;
   }
   .card-text-choose img {
@@ -222,7 +227,7 @@
     margin-bottom: 5px;
   }
   .card-money {
-    font-size: 16px;
+    font-size: 14px;
   }
   .card-text-bold {
     font-size: 8px;
@@ -235,7 +240,7 @@
     font-size: 9px;
   }
   .card-text {
-    font-size: 8px;
+    font-size: 6px;
   }
   .card-text-choose li:nth-child(4) .card::before {
     font-size: 6px;
@@ -280,6 +285,9 @@
     width: 8px;
     height: 8px;
     margin: 0 3px;
+  }
+  .card-rating-text {
+    font-size: 9px;
   }
 
   /* footer */
@@ -339,9 +347,8 @@
     top: 30px;
   }
   .get a {
-    padding: 0.5rem 1rem;
-    font-weight: bold;
-    font-size: 14px;
+    padding: 5px 8px;
+    font-size: 13px;
   }
   .text-main {
     margin-top: 6rem;
@@ -411,8 +418,8 @@
   }
   .step-card {
     padding: 0;
-    width: 140px;
-    height: 60px;
+    width: 64px;
+    height: 62px;
     margin-top: 0;
     border-radius: 8px;
   }
@@ -428,7 +435,7 @@
   /* watchlist */
 
   .watchlist {
-    height: 260px;
+    height: 215px;
   }
   .text-watchlist {
     font-size: 18px;
@@ -442,6 +449,9 @@
   }
   .watchlist-text {
     font-size: 4.5px;
+  }
+  .icon-watchlist {
+    margin-top: 0;
   }
 
   /* choose */
@@ -467,6 +477,9 @@
   }
   .card-text {
     font-size: 6px;
+  }
+  .card-text-choose ul {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   /* experience */
@@ -515,6 +528,9 @@
   }
   .card-rating {
     font-size: 8px;
+  }
+  .card-rating-text {
+    font-size: 6px;
   }
   .slick-dots li {
     width: 6px;
